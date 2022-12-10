@@ -7,7 +7,7 @@ import java.util.Scanner;
 class exercise11 {
   public static void main(String[] args) {
 
-    try (Scanner scan = new Scanner(System.in)) {
+    try (var scan = new Scanner(System.in)) {
         System.out.print("Digite o primeiro numero inteiro: ");
         int firtIntegerNumber = scan.nextInt();
         System.out.print("Digite o Segundo numero inteiro: ");
